@@ -21,6 +21,8 @@ This is a set of python helper functions for generating hellium statistics based
     """
 ```
 
+*The current hnt price is pulled directly from the coin gecko API*
+
 ```python
 In [2]: ha.get_hotspot_stats("11zSUKzNbtTaG4LebcNL71VPb4PxgQVwCtRgkepbE94341bPLzG", max_time="12/01/20", min_time="11/01/20")
 Out[2]:
