@@ -1,0 +1,13 @@
+# ignore these, never commit
+tmp
+cover
+*.egg-info
+*.pyc
+*.idea
+*.coverage
+*.DS_Store
+*.aux
+*.fdb_latexmk
+*.fls
+*.DS_Store
+.ipynb_checkpoints

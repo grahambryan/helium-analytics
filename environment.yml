@@ -1,0 +1,14 @@
+# Conda (Virtual) Environment
+# Run: $ conda env create --file environment.yml
+name: env_hnt
+channels:
+- defaults
+dependencies:
+- python>=3.7
+- pytest
+- pytest-cov
+- pylint
+- ipython
+- pandas
+- numpy
+- pip
