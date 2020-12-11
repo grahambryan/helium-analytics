@@ -1,4 +1,4 @@
-# Hellium Analytics
+# Helium Analytics
 
 This is a set of python helper functions for generating helium statistics based on regions and individual hotspots.
 
