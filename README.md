@@ -40,7 +40,7 @@ This is a set of python helper functions for generating helium statistics based 
 In [2]: ha.get_hotspot_stats("11zSUKzNbtTaG4LebcNL71VPb4PxgQVwCtRgkepbE94341bPLzG", max_time="12/01/20", min_time="11/01/20")
 Out[2]:
 {'address': '11zSUKzNbtTaG4LebcNL71VPb4PxgQVwCtRgkepbE94341bPLzG',
- 'bucker': 'day',
+ 'bucket': 'day',
  'total_hnt': 770.5057999599999,
  'avg_hnt': 25.68352666533333,
  'avg_max_hnt': 45.07513248,
