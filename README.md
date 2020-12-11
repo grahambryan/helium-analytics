@@ -2,6 +2,19 @@
 
 This is a set of python helper functions for generating hellium statistics based on regions and individual hotspots.
 
+## Setup
+
+*Have not tested on windows*
+
+1. Install [conda](https://docs.anaconda.com/anaconda/install/mac-os/#macos-graphical-install) python virtual environment manager
+2. Open up `Terminal`, `iterm`, or whatever you use then type the following
+3. `git clone https://github.com/grahambryan/helium-analytics.git`
+4. `cd helium-analytics`
+5. `conda env create -f environment.yml`
+6. `conda activate env_hnt`
+7. `ipython`
+8. `import hellium_analytics as ha`
+
 ## Example
 
 ### get_hotspot_stats
