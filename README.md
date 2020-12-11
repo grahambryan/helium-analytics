@@ -1,6 +1,6 @@
 # Hellium Analytics
 
-This is a set of python helper functions for generating hellium statistics based on regions and individual hotspots.
+This is a set of python helper functions for generating helium statistics based on regions and individual hotspots.
 
 ## Setup
 
