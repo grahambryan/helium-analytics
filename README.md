@@ -54,7 +54,19 @@ Out[2]:
  'total_usd': 901.4917859531998}
  ```
 
-### get_hotpost
+### get_hotposts
+
+```python
+    """
+    Make requests to helium.io API to grab pages of hotspot data up to max_cursor_cnt
+
+    arg:
+        max_cursor_cnt (int): Max number of pages to request (default: 100)
+
+    return:
+        hotspots (pd.DataFrame): dataframe of all hotspots listed at helium.io
+    """
+```
 
 ```python
 In [3]: df_hotspots = ha.get_hotspots()
