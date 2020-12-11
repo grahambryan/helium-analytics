@@ -273,7 +273,7 @@ def get_hotspot_stats(
         avg_hnt_per_hotspot.append(rewards.total.mean())
         data = {
             "address": address,
-            "bucker": bucket.lower(),
+            "bucket": bucket.lower(),
             "total_hnt": total_hnt,
             "avg_hnt": np.mean(avg_hnt_per_hotspot),
             "avg_max_hnt": np.mean(max_hnt_per_hotspot),
